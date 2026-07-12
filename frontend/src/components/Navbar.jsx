@@ -1,4 +1,4 @@
-import { memo } from 'react';
+// import { memo } from 'react';
 import './Navbar.css'
 
 const Navbar = () => {
@@ -13,4 +13,4 @@ const Navbar = () => {
   );
 };
 
-export default memo(Navbar);
+export default Navbar;

@@ -3,14 +3,19 @@ import './App.css'
 
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
+import Feed from './components/Feed_stories/Feed'
+import StoriesBar from './components/StoriesBar'
 
 function App() {
   return (
-    <>
-      <Navbar />
+    <div style={{ display: 'flex' }}>
       <Sidebar />
-      {/* feed and tabsbar go here */}
-    </>
+      <div style={{ marginLeft: '240px', flex: 1, minHeight: '100vh' }}>
+        <Navbar />
+        <StoriesBar />
+        <Feed />
+      </div>
+    </div>
   )
 }
 
