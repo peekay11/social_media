@@ -2,15 +2,14 @@
 import './App.css'
 
 import Navbar from './components/Navbar'
-function App() {
- 
+import Sidebar from './components/Sidebar'
 
+function App() {
   return (
     <>
-    <Navbar/>
-
-{/* navbar , feedcomponent , tabsbar  */}
-
+      <Navbar />
+      <Sidebar />
+      {/* feed and tabsbar go here */}
     </>
   )
 }
