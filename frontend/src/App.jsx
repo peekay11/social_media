@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import Feed from './components/Feed_stories/Feed'
 import StoriesBar from './components/StoriesBar'
+import Posts from './components/Posts'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <StoriesBar />
         <Feed />
+        <Posts/>
       </div>
     </div>
   )

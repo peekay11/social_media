@@ -17,8 +17,10 @@
 .sidebar-nav {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
-  margin-top: 4rem;
+  gap: 2rem;
+  margin-top: 0.4rem;
+
+
 }
 
 .sidebar-item {

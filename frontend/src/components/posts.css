@@ -1,0 +1,49 @@
+.postbar{
+    border: 1px solid black;
+    border-radius: 9px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.postnav{
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profileInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.profilepic{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+
+.postedpic{
+    background-color: green;
+    width: 39rem;
+    height: 20rem;
+}
+
+.user{
+    margin: 0;
+}
+
+.options{
+    margin: 0;
+}
