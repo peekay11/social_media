@@ -1,5 +1,5 @@
 .postbar{
-    border: 1px solid black;
+    border: 1px solid #e5e7eb;
     border-radius: 9px;
     width: fit-content;
     display: flex;
@@ -24,7 +24,7 @@
 
 
 .profilepic{
-    border: 1px solid black;
+    border: 1px solid #e5e7eb;
     display: flex;
     align-items: center;
     justify-content: center;
